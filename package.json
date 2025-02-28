@@ -1,0 +1,33 @@
+{
+  "name": "grammy-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "session": "node session.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tempiltin/grammy-bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/tempiltin/grammy-bot/issues"
+  },
+  "homepage": "https://github.com/tempiltin/grammy-bot#readme",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "grammy": "^1.35.0",
+    "input": "^1.0.1",
+    "telegram": "^2.26.22"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
